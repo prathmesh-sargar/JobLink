@@ -1,0 +1,16 @@
+in backend also givesfile  # .type |  ( File extension ok ) is important while importing nay things ok 
+
+1. create server and connect to mongoDB database simple work done first 
+
+2. create models  -> Schema making 
+
+# Learn how to create Schema of any application 
+  building relationship between two models  and their related things in simple and effective manner 
+
+we create 4 modles Schemas
+    1.User 
+    2.Company
+    3.Application
+    4.Job 
+
+// create controllers :  Business Logic is Here OK___!_!
