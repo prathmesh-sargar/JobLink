@@ -33,7 +33,7 @@ const UpdateProfile = () => {
       formData.append("file", data?.resume[0]);
 
       const response = await axios.put(
-        "http://localhost:8000/api/v1/user/profile/update",
+        "https://joblink-backend-1zs3.onrender.com/api/v1/user/profile/update",
         formData,
         { withCredentials: true },
         {

@@ -43,7 +43,7 @@ const SetupCompany = () => {
       
 
       const response = await axios.put(
-        `http://localhost:8000/api/v1/company/update/${companyId}`,
+        `https://joblink-backend-1zs3.onrender.com/api/v1/company/update/${companyId}`,
         formData,
         {withCredentials : true},
         {

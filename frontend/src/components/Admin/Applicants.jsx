@@ -11,7 +11,7 @@ const Applicants = () => {
 
     const HandleStatus = async(status,applicantID)=>{
         try {
-            const res = await axios.post(`http://localhost:8000/api/v1/application/status/${applicantID}/update`,{status: status},{withCredentials: true})
+            const res = await axios.post(`https://joblink-backend-1zs3.onrender.com/api/v1/application/status/${applicantID}/update`,{status: status},{withCredentials: true})
             if(res.data.success){
                 toast.success(res.data.message)
             }
@@ -39,7 +39,7 @@ const Applicants = () => {
     useEffect(()=>{
         const  getAllApplicants = async()=>{
             try {
-                const res = await axios.get(`http://localhost:8000/api/v1/application/${JobId}/applicants`,
+                const res = await axios.get(`https://joblink-backend-1zs3.onrender.com/api/v1/application/${JobId}/applicants`,
                 {withCredentials: true});
                 if(res.data.success){
                     // console.log(res.data.job.applications[0].applicant.fullname);

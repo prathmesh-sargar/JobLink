@@ -27,7 +27,7 @@ const jobQuery = useSelector((state)=>state.jobs.jobQuery)
   useEffect(() => {
     const fetchJobs = async () => {
       try {
-        const res = await axios.get(`http://localhost:8000/api/v1/job/get?keyword=${jobQuery}`, {
+        const res = await axios.get(`https://joblink-backend-1zs3.onrender.com/api/v1/job/get?keyword=${jobQuery}`, {
           withCredentials: true, // Include if backend uses cookies or sessions
         });
         // console.log("Jobs fetched successfully:", res.data.jobs);

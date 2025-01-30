@@ -19,7 +19,7 @@ const ProfilePage = () => {
     useEffect(()=>{
       const getAllAppliedJobs = async()=>{
         try {
-          const res = await axios.get("http://localhost:8000/api/v1/application/get",{withCredentials: true});
+          const res = await axios.get("https://joblink-backend-1zs3.onrender.com/api/v1/application/get",{withCredentials: true});
           if(res.data.success){
             // console.log(res.data.application);
             dispatch(setAppliedJobs(res.data.application))

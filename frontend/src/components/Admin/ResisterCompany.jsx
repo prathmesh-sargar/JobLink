@@ -23,7 +23,7 @@ const ResisterCompany = () => {
       }
 
       const res = await axios.post(
-        "http://localhost:8000/api/v1/company/register",
+        "https://joblink-backend-1zs3.onrender.com/api/v1/company/register",
         data,
         { withCredentials: true }
       );

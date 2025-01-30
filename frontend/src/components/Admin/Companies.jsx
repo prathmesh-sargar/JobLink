@@ -16,7 +16,7 @@ const Companies = () => {
     const getAllCompnies = async()=>{
       try {
 
-        const res = await axios.get("http://localhost:8000/api/v1/company/get",{withCredentials: true})
+        const res = await axios.get("https://joblink-backend-1zs3.onrender.com/api/v1/company/get",{withCredentials: true})
         // console.log(res.data.companies);
         dispatch(getCompanies(res?.data?.companies));
         

@@ -28,7 +28,7 @@ const PostJob = () => {
     console.log(data);
     dispatch(setLoading(true))
     try {
-      const res = await axios.post("http://localhost:8000/api/v1/job/post",
+      const res = await axios.post("https://joblink-backend-1zs3.onrender.com/api/v1/job/post",
        data,{
         withCredentials: true,
       });

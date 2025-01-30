@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const userLogout = async () => {
     try {
-      const res = await axios.get("http://localhost:8000/api/v1/user/logout", {
+      const res = await axios.get("https://joblink-backend-1zs3.onrender.com/api/v1/user/logout", {
         withCredentials: true,
       });
       if (res.data.success) {

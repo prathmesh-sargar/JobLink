@@ -14,7 +14,7 @@ const Jobdetails = () => {
 
   const applyJobHandler = async()=>{
     try {
-      const res = await axios.get(`http://localhost:8000/api/v1/application/apply/${jobId}`,{withCredentials: true});
+      const res = await axios.get(`https://joblink-backend-1zs3.onrender.com/api/v1/application/apply/${jobId}`,{withCredentials: true});
       if(res.data.success){
          toast.success(res.data.message);
       }
@@ -31,7 +31,7 @@ const Jobdetails = () => {
     useEffect(() => {
       const fetchJobDetails = async () => {
         try {
-          const res = await axios.get(`http://localhost:8000/api/v1/job/get/${jobId}`,
+          const res = await axios.get(`https://joblink-backend-1zs3.onrender.com/api/v1/job/get/${jobId}`,
             {
               withCredentials: true, // Include if backend uses cookies or sessions
             });
