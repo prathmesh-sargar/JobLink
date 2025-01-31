@@ -3,7 +3,7 @@ import toast from "react-hot-toast";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { setUser } from "../redux/authSlice";
-
+ 
 const Navbar = () => {
   const user = useSelector((state) => state.auth.user);
 
@@ -51,7 +51,7 @@ const Navbar = () => {
                 <Link to={"/"}>Home</Link>
               </div>
               <div>
-              <div>
+              <div className="hidden md:block">
                 <Link to={"/resources"}>Resource</Link>
               </div>
               </div>
