@@ -29,7 +29,7 @@ const navigate = useNavigate();
         "https://joblink-backend-1zs3.onrender.com/api/v1/user/login",
         data,
         { withCredentials: true },
-        {credentials: "include"}
+        {credentials: "include"}    // Important for cookies
       );
       // console.log("response : ",response);
       
