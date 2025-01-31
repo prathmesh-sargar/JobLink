@@ -51,7 +51,7 @@ const Navbar = () => {
                 <Link to={"/"}>Home</Link>
               </div>
               <div>
-              <div className="hidden md:block">
+              <div className={`${user ?"md:block":"hidden"}`} >
                 <Link to={"/resources"}>Resource</Link>
               </div>
               </div>
