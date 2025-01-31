@@ -28,7 +28,8 @@ const navigate = useNavigate();
        const response = await axios.post(
         "https://joblink-backend-1zs3.onrender.com/api/v1/user/login",
         data,
-        { withCredentials: true }
+        { withCredentials: true },
+        {credentials: "include"}
       );
       // console.log("response : ",response);
       
