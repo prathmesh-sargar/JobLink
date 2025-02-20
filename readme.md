@@ -34,10 +34,22 @@ JobPortal is designed to bridge the gap between job seekers and recruiters, maki
 
 ## 📸 Screenshots
 
-![Homepage](https://via.placeholder.com/800x400?text=Add+your+screenshot+here)
-> Add a brief description of what each screenshot represents.
+![Screenshot (9772)](https://github.com/user-attachments/assets/a9567966-6cac-424e-bade-4904ee7fb53b)
 
----
+![Screenshot (9774)](https://github.com/user-attachments/assets/3daebd79-e1cf-4e1f-ad74-e62afe1fe78d)
+
+![Screenshot (9773)](https://github.com/user-attachments/assets/191f3365-9e96-43e5-bbed-2e969dbd03a6)
+
+![Screenshot (9779)](https://github.com/user-attachments/assets/469c73f2-14f3-4fcb-9530-7af9ae12baaf)
+
+---  
+## Admin Part : 
+![Screenshot (9776)](https://github.com/user-attachments/assets/ff60b73a-2382-460d-8f3f-f660f1d2965a)
+
+![Screenshot (9777)](https://github.com/user-attachments/assets/8d48ae3e-e771-4406-b7d4-41e6fdfacdf9)
+
+![Screenshot (9778)](https://github.com/user-attachments/assets/eeee9a85-4e37-4182-898d-5e04ac538130)
+
 
 ## 🔧 Setup Instructions
 
