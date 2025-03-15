@@ -20,7 +20,7 @@ app.use(express.urlencoded({extended: true}));
 app.use(cookieParser());
 // Allow credentials and specific origin
 const corsOptions = {
-    origin: "https://joblink-o1ry.onrender.com", // Frontend URL
+    origin: "https://skill-sync-beta-six.vercel.app", // Frontend URL
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // Allowed methods
     credentials: true, // Allow cookies or other credentials
 };
